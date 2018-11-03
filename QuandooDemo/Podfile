@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+target 'QuandooDemo' do
+    pod 'Alamofire'
+    pod 'SwiftyJSON'
+    pod 'ObjectMapper'
+    pod 'AlamofireObjectMapper'
+    
+    target 'QuandooDemoTests' do
+        inherit! :complete
+    end
+end
+
